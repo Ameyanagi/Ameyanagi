@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 import subprocess
 import tempfile
 from pathlib import Path
@@ -24,16 +25,23 @@ IGNORED_LANGUAGES = {
 
 
 def get_repos():
-    """Get all public, non-fork, non-archived repos."""
-    result = subprocess.run(
-        [
-            "gh", "api", f"/users/{GITHUB_USER}/repos",
-            "--paginate",
-            "-q", '.[] | select(.fork == false and .archived == false) | .name',
-        ],
-        capture_output=True, text=True, check=True,
-    )
-    return [name.strip() for name in result.stdout.strip().split("\n") if name.strip()]
+    """Extract repo names from project tables in README."""
+    content = README_PATH.read_text()
+    # Remove the LOC section to avoid matching repos listed there
+    start_idx = content.find(START_MARKER)
+    end_idx = content.find(END_MARKER)
+    if start_idx != -1 and end_idx != -1:
+        content = content[:start_idx] + content[end_idx + len(END_MARKER):]
+    # Match links like [repo_name](https://github.com/Ameyanagi/repo_name)
+    pattern = rf"\[([^\]]+)\]\(https://github\.com/{GITHUB_USER}/([^)]+)\)"
+    repos = []
+    seen = set()
+    for match in re.finditer(pattern, content):
+        repo_name = match.group(2)
+        if repo_name not in seen:
+            repos.append(repo_name)
+            seen.add(repo_name)
+    return repos
 
 
 def clone_and_count(repo_name, tmpdir):
