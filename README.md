@@ -58,8 +58,6 @@
 | [xraydb-api](https://github.com/Ameyanagi/xraydb-api) | Rust | X-ray database API |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | FEFF10 implementation in Rust (WIP) |
 | [feff85exafs-rs](https://github.com/Ameyanagi/feff85exafs-rs) | Rust | FEFF85 EXAFS in Rust (WIP) |
-| [cif-parser](https://github.com/Ameyanagi/cif-parser) | Rust | CIF file parser |
-| [structure2feff](https://github.com/Ameyanagi/structure2feff) | - | Convert structures to FEFF input |
 
 ## Skills and Templates
 
