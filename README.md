@@ -34,6 +34,36 @@
 </details>
 
 <!-- LOC:START -->
+### Languages
+
+| Language | Files | Lines of Code | % |
+|----------|------:|-------------:|--:|
+| JavaScript | 1,374 | 543,420 | 60.0% |
+| Rust | 942 | 213,485 | 23.6% |
+| TypeScript | 442 | 75,959 | 8.4% |
+| Python | 320 | 42,442 | 4.7% |
+| TSX | 258 | 26,705 | 2.9% |
+| **Total** | **3,470** | **905,823** | **100%** |
+
+### Top Repositories by Lines of Code
+
+| Repository | Primary Language | Lines of Code |
+|------------|-----------------|-------------:|
+| [ClaudeSlide](https://github.com/Ameyanagi/ClaudeSlide) | JavaScript | 417,581 |
+| [python-tutorial](https://github.com/Ameyanagi/python-tutorial) | JavaScript | 96,045 |
+| [Yoshitomo](https://github.com/Ameyanagi/Yoshitomo) | JavaScript | 76,233 |
+| [ruviz](https://github.com/Ameyanagi/ruviz) | Rust | 67,526 |
+| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | 53,270 |
+| [cobalt-stack](https://github.com/Ameyanagi/cobalt-stack) | JavaScript | 32,688 |
+| [feff-rs_archive](https://github.com/Ameyanagi/feff-rs_archive) | Rust | 26,083 |
+| [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | 22,709 |
+| [lmopt-rs](https://github.com/Ameyanagi/lmopt-rs) | Rust | 21,537 |
+| [Yoshikosan](https://github.com/Ameyanagi/Yoshikosan) | TSX | 14,660 |
+| [easypptx](https://github.com/Ameyanagi/easypptx) | Python | 14,411 |
+| [feff85exafs-rs](https://github.com/Ameyanagi/feff85exafs-rs) | Rust | 12,545 |
+| [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TSX | 7,125 |
+| [crowpeas](https://github.com/Ameyanagi/crowpeas) | Python | 5,965 |
+| [StructuredPy](https://github.com/Ameyanagi/StructuredPy) | JavaScript | 5,177 |
 <!-- LOC:END -->
 
 ## Featured Projects
