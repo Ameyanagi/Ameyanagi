@@ -33,6 +33,9 @@
 
 </details>
 
+<!-- LOC:START -->
+<!-- LOC:END -->
+
 ## Featured Projects
 
 | Project | Language | Description |
