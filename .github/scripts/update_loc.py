@@ -85,16 +85,7 @@ def aggregate(all_results):
             code = stats.get("code", 0)
             comments = stats.get("comments", 0)
             blanks = stats.get("blanks", 0)
-            children = stats.get("children", {})
-            # tokei nests file-level stats under "reports" or at top level
             files = len(stats.get("reports", []))
-
-            # Also check children for additional stats
-            for child_stats in children.values():
-                code += child_stats.get("code", 0)
-                comments += child_stats.get("comments", 0)
-                blanks += child_stats.get("blanks", 0)
-                files += len(child_stats.get("reports", []))
 
             if code == 0:
                 continue
