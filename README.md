@@ -38,12 +38,12 @@
 
 | Language | Files | Lines of Code | % |
 |----------|------:|-------------:|--:|
-| JavaScript | 563 | 377,416 | 56.6% |
-| Rust | 729 | 165,263 | 24.8% |
-| TypeScript | 421 | 65,016 | 9.8% |
+| JavaScript | 563 | 377,416 | 56.3% |
+| Rust | 729 | 165,708 | 24.7% |
+| TypeScript | 426 | 66,335 | 9.9% |
 | Python | 232 | 33,313 | 5.0% |
-| TSX | 200 | 23,286 | 3.5% |
-| **Total** | **2,210** | **666,641** | **100%** |
+| TSX | 205 | 24,970 | 3.7% |
+| **Total** | **2,220** | **670,089** | **100%** |
 
 ### Top Repositories by Lines of Code
 
@@ -56,10 +56,10 @@
 | [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | 22,709 |
 | [Yoshikosan](https://github.com/Ameyanagi/Yoshikosan) | TSX | 14,660 |
 | [easypptx](https://github.com/Ameyanagi/easypptx) | Python | 14,411 |
+| [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TSX | 12,849 |
 | [feff85exafs-rs](https://github.com/Ameyanagi/feff85exafs-rs) | Rust | 12,545 |
-| [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TSX | 9,634 |
 | [crowpeas](https://github.com/Ameyanagi/crowpeas) | Python | 5,965 |
-| [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | 3,483 |
+| [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | 3,716 |
 | [IBR-AIC](https://github.com/Ameyanagi/IBR-AIC) | Python | 3,140 |
 | [mucaljs](https://github.com/Ameyanagi/mucaljs) | JavaScript | 2,419 |
 | [LLMRateLimiter](https://github.com/Ameyanagi/LLMRateLimiter) | Python | 2,268 |
