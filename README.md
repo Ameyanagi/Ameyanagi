@@ -40,10 +40,10 @@
 |----------|------:|-------------:|--:|
 | JavaScript | 563 | 377,416 | 56.3% |
 | Rust | 729 | 165,708 | 24.7% |
-| TypeScript | 426 | 66,335 | 9.9% |
+| TypeScript | 426 | 66,329 | 9.9% |
 | Python | 232 | 33,313 | 5.0% |
 | TSX | 205 | 24,970 | 3.7% |
-| **Total** | **2,220** | **670,089** | **100%** |
+| **Total** | **2,220** | **670,083** | **100%** |
 
 ### Top Repositories by Lines of Code
 
@@ -56,7 +56,7 @@
 | [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | 22,709 |
 | [Yoshikosan](https://github.com/Ameyanagi/Yoshikosan) | TSX | 14,660 |
 | [easypptx](https://github.com/Ameyanagi/easypptx) | Python | 14,411 |
-| [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TSX | 12,849 |
+| [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TSX | 12,843 |
 | [feff85exafs-rs](https://github.com/Ameyanagi/feff85exafs-rs) | Rust | 12,545 |
 | [crowpeas](https://github.com/Ameyanagi/crowpeas) | Python | 5,965 |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | 3,716 |
