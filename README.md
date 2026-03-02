@@ -38,12 +38,12 @@
 
 | Language | Files | Lines of Code | % |
 |----------|------:|-------------:|--:|
-| JavaScript | 563 | 377,416 | 62.3% |
-| Rust | 509 | 102,306 | 16.9% |
+| JavaScript | 563 | 377,416 | 62.2% |
+| Rust | 510 | 102,904 | 17.0% |
 | TypeScript | 426 | 66,329 | 10.9% |
 | Python | 231 | 32,811 | 5.4% |
 | TSX | 205 | 24,970 | 4.1% |
-| **Total** | **1,999** | **606,179** | **100%** |
+| **Total** | **2,001** | **606,804** | **100%** |
 
 ### Top Repositories by Lines of Code
 
@@ -59,10 +59,10 @@
 | [crowpeas](https://github.com/Ameyanagi/crowpeas) | Python | 5,965 |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | 3,716 |
 | [IBR-AIC](https://github.com/Ameyanagi/IBR-AIC) | Python | 3,140 |
+| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | 2,536 |
 | [mucaljs](https://github.com/Ameyanagi/mucaljs) | JavaScript | 2,419 |
 | [LLMRateLimiter](https://github.com/Ameyanagi/LLMRateLimiter) | Python | 2,268 |
 | [DecomNano](https://github.com/Ameyanagi/DecomNano) | Python | 1,925 |
-| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | 1,911 |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Rust | 1,225 |
 <!-- LOC:END -->
 
