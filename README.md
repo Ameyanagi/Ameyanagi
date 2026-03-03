@@ -38,12 +38,12 @@
 
 | Language | Files | Lines of Code | % |
 |----------|------:|-------------:|--:|
-| JavaScript | 563 | 377,416 | 62.2% |
-| Rust | 510 | 102,904 | 17.0% |
-| TypeScript | 426 | 66,329 | 10.9% |
-| Python | 231 | 32,811 | 5.4% |
-| TSX | 205 | 24,970 | 4.1% |
-| **Total** | **2,001** | **606,804** | **100%** |
+| JavaScript | 564 | 377,432 | 61.0% |
+| Rust | 527 | 107,801 | 17.4% |
+| TypeScript | 440 | 69,244 | 11.2% |
+| Python | 239 | 33,515 | 5.4% |
+| TSX | 215 | 28,069 | 4.5% |
+| **Total** | **2,051** | **618,435** | **100%** |
 
 ### Top Repositories by Lines of Code
 
@@ -52,14 +52,14 @@
 | [ClaudeSlide](https://github.com/Ameyanagi/ClaudeSlide) | JavaScript | 417,581 |
 | [ruviz](https://github.com/Ameyanagi/ruviz) | Rust | 67,526 |
 | [cobalt-stack](https://github.com/Ameyanagi/cobalt-stack) | JavaScript | 32,688 |
-| [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | 22,709 |
+| [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | 30,708 |
 | [Yoshikosan](https://github.com/Ameyanagi/Yoshikosan) | TSX | 14,660 |
 | [easypptx](https://github.com/Ameyanagi/easypptx) | Python | 14,411 |
 | [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TSX | 12,843 |
+| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | 6,168 |
 | [crowpeas](https://github.com/Ameyanagi/crowpeas) | Python | 5,965 |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | 3,716 |
 | [IBR-AIC](https://github.com/Ameyanagi/IBR-AIC) | Python | 3,140 |
-| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | 2,536 |
 | [mucaljs](https://github.com/Ameyanagi/mucaljs) | JavaScript | 2,419 |
 | [LLMRateLimiter](https://github.com/Ameyanagi/LLMRateLimiter) | Python | 2,268 |
 | [DecomNano](https://github.com/Ameyanagi/DecomNano) | Python | 1,925 |
