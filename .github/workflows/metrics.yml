@@ -1,14 +1,8 @@
 name: Metrics
 on:
-  # Run daily at 00:00 UTC
   schedule:
     - cron: "0 0 * * *"
-  # Allow manual trigger
   workflow_dispatch:
-  # Run on push to main (optional, useful for testing)
-  push:
-    branches:
-      - main
 
 jobs:
   github-metrics:
@@ -16,12 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-
-      # ==============================================
-      # 1. Header + Base Stats Overview
-      # ==============================================
       - name: General metrics
-        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: metrics-general.svg
@@ -32,11 +21,7 @@ jobs:
           config_timezone: Asia/Tokyo
           repositories_forks: no
 
-      # ==============================================
-      # 2. Languages breakdown
-      # ==============================================
       - name: Languages
-        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: metrics-languages.svg
@@ -53,118 +38,5 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
           plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell, nix
-          config_timezone: Asia/Tokyo
-          repositories_forks: no
-
-      # ==============================================
-      # 3. Lines of code changed
-      # ==============================================
-      - name: Lines of code
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Ameyanagi
-          base: ""
-          plugin_lines: yes
-          plugin_lines_sections: base, history
-          plugin_lines_history_limit: 2
-          config_timezone: Asia/Tokyo
-          repositories_forks: no
-
-      # ==============================================
-      # 4. Recent activity
-      # ==============================================
-      - name: Recent activity
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Ameyanagi
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: push, pr, issue, release, review, comment
-          plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
-          config_timezone: Asia/Tokyo
-          repositories_forks: no
-
-      # ==============================================
-      # 5. Notable contributions
-      # ==============================================
-      - name: Notable contributions
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-notable.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Ameyanagi
-          base: ""
-          plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_repositories: yes
-          plugin_notable_indepth: yes
-          plugin_notable_types: commit, pull_request, issue
-          plugin_notable_self: no
-          config_timezone: Asia/Tokyo
-          repositories_forks: no
-
-      # ==============================================
-      # 6. Achievements
-      # ==============================================
-      - name: Achievements
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Ameyanagi
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          config_timezone: Asia/Tokyo
-          repositories_forks: no
-
-      # ==============================================
-      # 7. Coding habits
-      # ==============================================
-      - name: Coding habits
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Ameyanagi
-          base: ""
-          plugin_habits: yes
-          plugin_habits_from: 500
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_trim: yes
-          plugin_habits_languages_limit: 8
-          config_timezone: Asia/Tokyo
-          repositories_forks: no
-
-      # ==============================================
-      # 8. Isometric commit calendar
-      # ==============================================
-      - name: Isometric calendar
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Ameyanagi
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           config_timezone: Asia/Tokyo
           repositories_forks: no
