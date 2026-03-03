@@ -17,7 +17,6 @@ I build high-performance scientific software and developer tooling, with Rust fo
 | [webxraydb-rs](https://github.com/Ameyanagi/webxraydb-rs) | TypeScript | Web interface and tooling around X-ray database workflows |
 | [LLMRateLimiter](https://github.com/Ameyanagi/LLMRateLimiter) | Python | Distributed LLM API rate limiter with FIFO queues and TPM/RPM controls |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Rust | Chemical formula parsing and composition utilities |
-| [ClaudeSlide](https://github.com/Ameyanagi/ClaudeSlide) | TypeScript | Slide generation and presentation tooling |
 
 ## Research and X-ray projects
 
@@ -26,7 +25,6 @@ I build high-performance scientific software and developer tooling, with Rust fo
 | [IBR-AIC](https://github.com/Ameyanagi/IBR-AIC) | Python | Bragg peak removal for X-ray absorption spectra |
 | [DecomNano](https://github.com/Ameyanagi/DecomNano) | Python | Heterogeneity analysis for bimetallic nanoparticles using XAS |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | X-ray database implementation in Rust |
-| [xraydb-api](https://github.com/Ameyanagi/xraydb-api) | Rust | API layer for X-ray database services |
 | [mucaljs](https://github.com/Ameyanagi/mucaljs) | JavaScript | JavaScript implementation of MUCAL cross-section estimation |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | FEFF10 implementation in Rust (work in progress) |
 
