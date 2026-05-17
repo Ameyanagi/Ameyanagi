@@ -29,8 +29,18 @@ My work usually sits in one of four lanes: X-ray spectroscopy and numerical tool
 | Project | Stack | What it is |
 |---------|-------|------------|
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Rust | Pure-Rust port of XrayDB elemental X-ray reference data |
-| [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Rust | Chemical formula parser and composition utility crate |
+| [xraydb-api](https://github.com/Ameyanagi/xraydb-api) | Rust | API service for XrayDB elemental X-ray reference data |
+| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust | Rust wrapper for FEFF10 X-ray absorption and electronic structure calculations |
 | [mucaljs](https://github.com/Ameyanagi/mucaljs) | JavaScript | JavaScript implementation of MUCAL cross-section estimation |
+| [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Rust | Chemical formula parser and composition utility crate |
+| [cif-parser](https://github.com/Ameyanagi/cif-parser) | Rust | Rust parser for Crystallographic Information Files |
+| [xasanalysis](https://github.com/Ameyanagi/xasanalysis) | Python | Python wrapper for simplifying XAS analysis workflows |
+| [xasalign](https://github.com/Ameyanagi/xasalign) | Python | Python package for aligning XAS spectra |
+| [xasref](https://github.com/Ameyanagi/xasref) | Python | Reference XAS spectra dataset and Python access tools for beamline data |
+| [IBR-AIC](https://github.com/Ameyanagi/IBR-AIC) | Python | Bragg peak removal for XAS spectra in transmission and fluorescence measurements |
+| [DecomNano](https://github.com/Ameyanagi/DecomNano) | Python | Heterogeneity analysis of bimetallic nanoparticles from XAS-derived coordination numbers |
+| [crowpeas](https://github.com/Ameyanagi/crowpeas) | Jupyter Notebook, Python | EXAFS fitting experiments using neural networks and PyTorch |
+| [lmopt](https://github.com/Ameyanagi/lmopt) | Rust | Levenberg-Marquardt nonlinear least-squares optimization in Rust using `faer` |
 
 ## GitHub stats
 
