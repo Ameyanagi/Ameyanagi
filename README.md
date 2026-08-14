@@ -8,9 +8,9 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 
 | Project | Stack | What it is | Links |
 |---------|-------|------------|-------|
-| [ruviz](https://github.com/Ameyanagi/ruviz) | Rust, Python, TypeScript | High-performance 2D and 3D plotting with matplotlib-style ergonomics and a `wgpu` renderer | [Demo](https://youtu.be/6MT_hu8xpjo) · [Rust](https://crates.io/crates/ruviz) · [Python](https://pypi.org/project/ruviz/) · [npm](https://www.npmjs.com/package/ruviz) |
-| [Yuru](https://github.com/Ameyanagi/yuru) | Rust | Fast CJK-aware fuzzy finder with Japanese romaji, Chinese pinyin, Korean phonetic search, and fzf-style shell integration | [Demo](https://youtu.be/_RyVr3VLULo) · [Releases](https://github.com/Ameyanagi/yuru/releases/latest) |
-| [aibo](https://github.com/Ameyanagi/aibo) | Rust | Hotkey-summoned, context-aware AI panel for macOS and Windows, with provider routing, dictation, file search, and agent runs | [Releases](https://github.com/Ameyanagi/aibo/releases/latest) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="" width="20" /> [ruviz](https://github.com/Ameyanagi/ruviz) | Rust, Python, TypeScript | High-performance 2D and 3D plotting with matplotlib-style ergonomics and a `wgpu` renderer | [Demo](https://youtu.be/6MT_hu8xpjo) · [Rust](https://crates.io/crates/ruviz) · [Python](https://pypi.org/project/ruviz/) · [npm](https://www.npmjs.com/package/ruviz) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/yuru/main/docs/assets/yuru-icon.svg" alt="" width="20" /> [Yuru](https://github.com/Ameyanagi/yuru) | Rust | Fast CJK-aware fuzzy finder with Japanese romaji, Chinese pinyin, Korean phonetic search, and fzf-style shell integration | [Demo](https://youtu.be/_RyVr3VLULo) · [Releases](https://github.com/Ameyanagi/yuru/releases/latest) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/aibo/main/assets-src/aibo-icon-1024.png" alt="" width="20" /> [aibo](https://github.com/Ameyanagi/aibo) | Rust | Hotkey-summoned, context-aware AI panel for macOS and Windows, with provider routing, dictation, file search, and agent runs | [Releases](https://github.com/Ameyanagi/aibo/releases/latest) |
 | [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | Fast XAS/XAFS analysis for large datasets, with parallel processing, fitting, plotting, and a desktop application | [Repository](https://github.com/Ameyanagi/xraytsubaki) |
 
 ## Project demos
@@ -34,15 +34,15 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 
 | Project | What it is | Links |
 |---------|------------|-------|
-| [Morphous](https://github.com/Ameyanagi/morphos) | Catalog of nature-inspired design systems, generated motif assets, and shadcn/tweakcn theme exports | [Live catalog](https://morphos.ameyanagi.com/) |
-| [WebXrayDB](https://github.com/Ameyanagi/webxraydb-rs) | Browser and desktop X-ray reference database with attenuation, scattering, optics, and sample-preparation calculators | [Web app](https://webxraydb-rs.ameyanagi.com/) · [Desktop releases](https://github.com/Ameyanagi/webxraydb-rs/releases/latest) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/morphos/main/src/logo.svg" alt="" width="20" /> [Morphous](https://github.com/Ameyanagi/morphos) | Catalog of nature-inspired design systems, generated motif assets, and shadcn/tweakcn theme exports | [Live catalog](https://morphos.ameyanagi.com/) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/webxraydb-rs/main/desktop-tauri/src-tauri/icons/icon.png" alt="" width="20" /> [WebXrayDB](https://github.com/Ameyanagi/webxraydb-rs) | Browser and desktop X-ray reference database with attenuation, scattering, optics, and sample-preparation calculators | [Web app](https://webxraydb-rs.ameyanagi.com/) · [Desktop releases](https://github.com/Ameyanagi/webxraydb-rs/releases/latest) |
 | [TagRune](https://tagrune.rxx.jp/) | AI tagging workflow built around a Rust API, queue workers, object storage, and a TanStack Start UI | [Product](https://tagrune.rxx.jp/) |
 | [Cadence Note](https://cadence.rxx.jp/) | Personal-first task manager built with TanStack Start, Elysia, Drizzle, PostgreSQL, and worker queues | [Product](https://cadence.rxx.jp/) |
 
 ## Packages and project families
 
 <details>
-<summary><strong>refeff</strong> — pure-Rust FEFF10-compatible spectroscopy stack</summary>
+<summary><img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> <strong>refeff</strong> — pure-Rust FEFF10-compatible spectroscopy stack</summary>
 
 | Published crate | Role |
 |-----------------|------|
@@ -94,7 +94,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Fortran-backed FEFF10 integration: [`feff10`](https://crates.io/crates/feff10), [`feff10-cli`](https://crates.io/crates/feff10-cli), [`feff10-sys`](https://crates.io/crates/feff10-sys), and [Python bindings](https://pypi.org/project/feff10-rs/) |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Elemental X-ray data: [`xraydb`](https://crates.io/crates/xraydb) and [`xraydb-data`](https://crates.io/crates/xraydb-data) |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Formula and composition parsing for [Rust](https://crates.io/crates/chemical-formula), [Python](https://pypi.org/project/chemical-formula-rs/), and [npm](https://www.npmjs.com/package/@ameyanagi/chemical-formula) |
-| [baselines](https://github.com/Ameyanagi/baselines) | 1D and 2D baseline correction with pybaselines parity and optional GPU kernels; [published crate](https://crates.io/crates/baselines) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | 1D and 2D baseline correction with pybaselines parity and optional GPU kernels; [published crate](https://crates.io/crates/baselines) |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Source workspace for Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | Unpublished NMR workspace: facade, core, IO, processing, analysis, simulation, prediction, and WebAssembly bindings |
 
@@ -126,7 +126,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 <details>
 <summary><strong>Earlier XAS tools and datasets</strong></summary>
 
-[mucaljs](https://github.com/Ameyanagi/mucaljs) ·
+<img src="https://raw.githubusercontent.com/Ameyanagi/mucaljs/main/public/favicon.png" alt="" width="20" /> [mucaljs](https://github.com/Ameyanagi/mucaljs) ·
 [xasanalysis](https://github.com/Ameyanagi/xasanalysis) ·
 [xasalign](https://github.com/Ameyanagi/xasalign) ·
 [xasref](https://github.com/Ameyanagi/xasref) ·
@@ -141,9 +141,9 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 
 | Project | Area | What it is |
 |---------|------|------------|
-| [refeff](https://github.com/Ameyanagi/refeff) | X-ray spectroscopy | From-scratch, safe-Rust FEFF10-compatible engine and CLI |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> [refeff](https://github.com/Ameyanagi/refeff) | X-ray spectroscopy | From-scratch, safe-Rust FEFF10-compatible engine and CLI |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | X-ray spectroscopy | Rust, Python, CLI, and C-facing integration for the original FEFF10 implementation |
-| [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals, spectra, and 2D surfaces, with optional GPU kernels |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals, spectra, and 2D surfaces, with optional GPU kernels |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | NMR | Rust workspace for spectrum IO, processing, analysis, simulation, prediction, and WebAssembly |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Numerical methods | Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | X-ray data | Pure-Rust port of XrayDB elemental reference data |
@@ -158,7 +158,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 | [easypptx](https://github.com/Ameyanagi/easypptx) | Documents | Python library for creating and manipulating PowerPoint presentations |
 | [agenting](https://github.com/Ameyanagi/agenting) | Developer tools | CLI for generating managed `AGENTS.md` and `CLAUDE.md` instructions |
 | [cobalt-stack](https://github.com/Ameyanagi/cobalt-stack) | Full-stack development | Axum and Next.js application template |
-| [mucaljs](https://github.com/Ameyanagi/mucaljs) | X-ray data | JavaScript implementation of MUCAL cross-section estimation |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/mucaljs/main/public/favicon.png" alt="" width="20" /> [mucaljs](https://github.com/Ameyanagi/mucaljs) | X-ray data | JavaScript implementation of MUCAL cross-section estimation |
 | [cif-parser](https://github.com/Ameyanagi/cif-parser) | Crystallography | Rust parser for Crystallographic Information Files |
 | [xasanalysis](https://github.com/Ameyanagi/xasanalysis) | XAS | Python helpers for XAS analysis workflows |
 | [xasalign](https://github.com/Ameyanagi/xasalign) | XAS | Python package for aligning XAS spectra |
