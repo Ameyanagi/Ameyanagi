@@ -15,18 +15,20 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 
 ## Project demos
 
+<div align="center">
+
 <table>
   <tr>
     <td width="260" align="center">
       <video src="https://github.com/user-attachments/assets/37f9643f-0ed1-4cca-8a15-c4a8bd78cf34" width="260" controls></video>
-      <strong><a href="https://github.com/Ameyanagi/yuru">Yuru</a></strong><br />CJK phonetic fuzzy search in the terminal<br /><a href="https://youtu.be/_RyVr3VLULo">Watch on YouTube</a>
     </td>
     <td width="260" align="center">
       <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="260" controls></video>
-      <strong><a href="https://github.com/Ameyanagi/ruviz">ruviz</a></strong><br />Publication-grade plotting in Rust<br /><a href="https://youtu.be/6MT_hu8xpjo">Watch on YouTube</a>
     </td>
   </tr>
 </table>
+
+</div>
 
 ## Products and applications
 
