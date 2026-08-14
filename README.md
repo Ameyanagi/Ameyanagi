@@ -10,28 +10,22 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 |---------|-------|------------|-------|
 | [ruviz](https://github.com/Ameyanagi/ruviz) | Rust, Python, TypeScript | High-performance 2D and 3D plotting with matplotlib-style ergonomics and a `wgpu` renderer | [Demo](https://youtu.be/6MT_hu8xpjo) · [Rust](https://crates.io/crates/ruviz) · [Python](https://pypi.org/project/ruviz/) · [npm](https://www.npmjs.com/package/ruviz) |
 | [Yuru](https://github.com/Ameyanagi/yuru) | Rust | Fast CJK-aware fuzzy finder with Japanese romaji, Chinese pinyin, Korean phonetic search, and fzf-style shell integration | [Demo](https://youtu.be/_RyVr3VLULo) · [Releases](https://github.com/Ameyanagi/yuru/releases/latest) |
-| [refeff](https://github.com/Ameyanagi/refeff) | Rust | From-scratch, safe-Rust FEFF10-compatible engine and CLI for EXAFS, XANES, RIXS, EELS, and related spectra | [Library](https://crates.io/crates/refeff) · [CLI](https://crates.io/crates/refeff-cli) |
 | [aibo](https://github.com/Ameyanagi/aibo) | Rust | Hotkey-summoned, context-aware AI panel for macOS and Windows, with provider routing, dictation, file search, and agent runs | [Releases](https://github.com/Ameyanagi/aibo/releases/latest) |
 | [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | Fast XAS/XAFS analysis for large datasets, with parallel processing, fitting, plotting, and a desktop application | [Repository](https://github.com/Ameyanagi/xraytsubaki) |
-| [ondotori-ble](https://github.com/Ameyanagi/ondotori-ble) | Python | Typed APIs for receiving selected T&D Ondotori sensor advertisements over Bluetooth Low Energy | [Documentation](https://ameyanagi.github.io/ondotori-ble/) · [PyPI](https://pypi.org/project/ondotori-ble/) |
 
 ## Project demos
 
 <table>
   <tr>
-    <td width="33%" align="center">
-      <a href="https://youtu.be/_RyVr3VLULo">
-        <img src="https://raw.githubusercontent.com/Ameyanagi/yuru/main/docs/assets/yuru-demo.gif" alt="Animated Yuru terminal demo" width="260" />
-      </a>
-      <br /><strong><a href="https://github.com/Ameyanagi/yuru">Yuru</a></strong><br />CJK phonetic fuzzy search in the terminal
+    <td width="260" align="center">
+      <video src="https://github.com/user-attachments/assets/37f9643f-0ed1-4cca-8a15-c4a8bd78cf34" width="260" controls></video>
+      <br /><strong><a href="https://github.com/Ameyanagi/yuru">Yuru</a></strong><br />CJK phonetic fuzzy search in the terminal<br /><a href="https://youtu.be/_RyVr3VLULo">Watch on YouTube</a>
     </td>
-    <td width="33%" align="center">
-      <a href="https://youtu.be/6MT_hu8xpjo">
-        <img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/gallery/rust/3d/surface3d_orbit.gif" alt="Animated ruviz 3D surface demo" width="260" />
-      </a>
-      <br /><strong><a href="https://github.com/Ameyanagi/ruviz">ruviz</a></strong><br />Publication-grade plotting in Rust
+    <td width="260" align="center">
+      <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="260" controls></video>
+      <br /><strong><a href="https://github.com/Ameyanagi/ruviz">ruviz</a></strong><br />Publication-grade plotting in Rust<br /><a href="https://youtu.be/6MT_hu8xpjo">Watch on YouTube</a>
     </td>
-    <td width="33%" align="center">
+    <td width="260" align="center">
       <a href="https://youtu.be/kGLp1Vifssc">
         <img src="https://img.youtube.com/vi/kGLp1Vifssc/hqdefault.jpg" alt="Watch the KYTLab demo" width="260" />
       </a>
@@ -67,7 +61,7 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 </details>
 
 <details>
-<summary><strong>ruviz</strong> — plotting across Rust, Python, browsers, and native GUIs</summary>
+<summary><img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="" width="20" /> <strong>ruviz</strong> — plotting across Rust, Python, browsers, and native GUIs</summary>
 
 - Core distributions: [crates.io](https://crates.io/crates/ruviz), [PyPI](https://pypi.org/project/ruviz/), and [npm](https://www.npmjs.com/package/ruviz).
 - Browser runtime: [`ruviz-web`](https://crates.io/crates/ruviz-web).
@@ -76,7 +70,7 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 </details>
 
 <details>
-<summary><strong>Yuru</strong> — phonetic fuzzy search as composable Rust crates</summary>
+<summary><img src="https://raw.githubusercontent.com/Ameyanagi/yuru/main/docs/assets/yuru-icon.svg" alt="" width="20" /> <strong>Yuru</strong> — phonetic fuzzy search as composable Rust crates</summary>
 
 | Published crate | Role |
 |-----------------|------|
@@ -90,7 +84,7 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 </details>
 
 <details>
-<summary><strong>Aibo</strong> — desktop AI application workspace</summary>
+<summary><img src="https://raw.githubusercontent.com/Ameyanagi/aibo/main/assets-src/aibo-icon-1024.png" alt="" width="20" /> <strong>Aibo</strong> — desktop AI application workspace</summary>
 
 Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi/aibo/releases/latest). Its internal Rust crates are intentionally unpublished and separate the domain model, model providers, platform integrations, session orchestration, storage, tools, agent loop, and `iced` UI.
 
@@ -126,6 +120,15 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 </details>
 
 <details>
+<summary><strong>Other published tools</strong></summary>
+
+| Project | Published artifact | Focus |
+|---------|--------------------|-------|
+| [ondotori-ble](https://github.com/Ameyanagi/ondotori-ble) | [PyPI](https://pypi.org/project/ondotori-ble/) · [documentation](https://ameyanagi.github.io/ondotori-ble/) | Typed BLE advertisement APIs for selected T&amp;D Ondotori sensors |
+
+</details>
+
+<details>
 <summary><strong>Earlier XAS tools and datasets</strong></summary>
 
 [mucaljs](https://github.com/Ameyanagi/mucaljs) ·
@@ -138,6 +141,37 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 [cif-parser](https://github.com/Ameyanagi/cif-parser)
 
 </details>
+
+## More public repositories
+
+| Project | Area | What it is |
+|---------|------|------------|
+| [refeff](https://github.com/Ameyanagi/refeff) | X-ray spectroscopy | From-scratch, safe-Rust FEFF10-compatible engine and CLI |
+| [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | X-ray spectroscopy | Rust, Python, CLI, and C-facing integration for the original FEFF10 implementation |
+| [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals, spectra, and 2D surfaces, with optional GPU kernels |
+| [RSpin](https://github.com/Ameyanagi/RSpin) | NMR | Rust workspace for spectrum IO, processing, analysis, simulation, prediction, and WebAssembly |
+| [lmopt](https://github.com/Ameyanagi/lmopt) | Numerical methods | Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
+| [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | X-ray data | Pure-Rust port of XrayDB elemental reference data |
+| [xraydb-api](https://github.com/Ameyanagi/xraydb-api) | X-ray data | Rust API service for XrayDB reference data |
+| [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Chemistry | Formula and composition parsing for Rust, Python, and TypeScript |
+| [ondotori-ble](https://github.com/Ameyanagi/ondotori-ble) | Instrumentation | Typed Python APIs for selected T&amp;D Ondotori BLE advertisements |
+| [ra-library](https://github.com/Ameyanagi/ra-library) | Risk assessment | Explainable chemical risk calculations and recommendations |
+| [ra-law-db](https://github.com/Ameyanagi/ra-law-db) | Regulatory data | Japanese chemical-law screening package and SQLite data |
+| [ra-bio](https://github.com/Ameyanagi/ra-bio) | Biological safety | Microorganism risk and regulatory reference package |
+| [risk_assessment_list](https://github.com/Ameyanagi/risk_assessment_list) | Regulatory data | Japanese obligation-list, GHS, and mixture screening tools |
+| [LLMRateLimiter](https://github.com/Ameyanagi/LLMRateLimiter) | AI infrastructure | Distributed TPM/RPM rate limiter with FIFO queues and burst prevention |
+| [ClaudeSlide](https://github.com/Ameyanagi/ClaudeSlide) | Documents | CLI and library for editing PowerPoint files through OOXML |
+| [easypptx](https://github.com/Ameyanagi/easypptx) | Documents | Python library for creating and manipulating PowerPoint presentations |
+| [agenting](https://github.com/Ameyanagi/agenting) | Developer tools | CLI for generating managed `AGENTS.md` and `CLAUDE.md` instructions |
+| [cobalt-stack](https://github.com/Ameyanagi/cobalt-stack) | Full-stack development | Axum and Next.js application template |
+| [mucaljs](https://github.com/Ameyanagi/mucaljs) | X-ray data | JavaScript implementation of MUCAL cross-section estimation |
+| [cif-parser](https://github.com/Ameyanagi/cif-parser) | Crystallography | Rust parser for Crystallographic Information Files |
+| [xasanalysis](https://github.com/Ameyanagi/xasanalysis) | XAS | Python helpers for XAS analysis workflows |
+| [xasalign](https://github.com/Ameyanagi/xasalign) | XAS | Python package for aligning XAS spectra |
+| [xasref](https://github.com/Ameyanagi/xasref) | XAS | Reference spectra dataset and Python access tools |
+| [IBR-AIC](https://github.com/Ameyanagi/IBR-AIC) | XAS | Bragg peak removal for transmission and fluorescence spectra |
+| [DecomNano](https://github.com/Ameyanagi/DecomNano) | Nanoscience | XAS-derived heterogeneity analysis of bimetallic nanoparticles |
+| [crowpeas](https://github.com/Ameyanagi/crowpeas) | Machine learning | Neural-network experiments for EXAFS fitting |
 
 ## GitHub stats
 
