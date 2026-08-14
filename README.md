@@ -17,13 +17,13 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 
 <div align="center">
 
-<table>
+<table width="100%">
   <tr>
-    <td width="260" align="center">
-      <video src="https://github.com/user-attachments/assets/37f9643f-0ed1-4cca-8a15-c4a8bd78cf34" width="260" controls></video>
+    <td width="50%" align="center">
+      <video src="https://github.com/user-attachments/assets/37f9643f-0ed1-4cca-8a15-c4a8bd78cf34" width="100%" controls></video>
     </td>
-    <td width="260" align="center">
-      <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="260" controls></video>
+    <td width="50%" align="center">
+      <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="100%" controls></video>
     </td>
   </tr>
 </table>
@@ -147,7 +147,6 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 | [RSpin](https://github.com/Ameyanagi/RSpin) | NMR | Rust workspace for spectrum IO, processing, analysis, simulation, prediction, and WebAssembly |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Numerical methods | Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | X-ray data | Pure-Rust port of XrayDB elemental reference data |
-| [xraydb-api](https://github.com/Ameyanagi/xraydb-api) | X-ray data | Rust API service for XrayDB reference data |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Chemistry | Formula and composition parsing for Rust, Python, and TypeScript |
 | [ondotori-ble](https://github.com/Ameyanagi/ondotori-ble) | Instrumentation | Typed Python APIs for selected T&amp;D Ondotori BLE advertisements |
 | [ra-library](https://github.com/Ameyanagi/ra-library) | Risk assessment | Explainable chemical risk calculations and recommendations |
