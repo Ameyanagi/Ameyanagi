@@ -19,17 +19,11 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
   <tr>
     <td width="260" align="center">
       <video src="https://github.com/user-attachments/assets/37f9643f-0ed1-4cca-8a15-c4a8bd78cf34" width="260" controls></video>
-      <br /><strong><a href="https://github.com/Ameyanagi/yuru">Yuru</a></strong><br />CJK phonetic fuzzy search in the terminal<br /><a href="https://youtu.be/_RyVr3VLULo">Watch on YouTube</a>
+      <strong><a href="https://github.com/Ameyanagi/yuru">Yuru</a></strong><br />CJK phonetic fuzzy search in the terminal<br /><a href="https://youtu.be/_RyVr3VLULo">Watch on YouTube</a>
     </td>
     <td width="260" align="center">
       <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="260" controls></video>
-      <br /><strong><a href="https://github.com/Ameyanagi/ruviz">ruviz</a></strong><br />Publication-grade plotting in Rust<br /><a href="https://youtu.be/6MT_hu8xpjo">Watch on YouTube</a>
-    </td>
-    <td width="260" align="center">
-      <a href="https://youtu.be/kGLp1Vifssc">
-        <img src="https://img.youtube.com/vi/kGLp1Vifssc/hqdefault.jpg" alt="Watch the KYTLab demo" width="260" />
-      </a>
-      <br /><strong><a href="https://github.com/Ameyanagi/KYTLab">KYTLab</a></strong><br />AI-assisted hazard prediction training
+      <strong><a href="https://github.com/Ameyanagi/ruviz">ruviz</a></strong><br />Publication-grade plotting in Rust<br /><a href="https://youtu.be/6MT_hu8xpjo">Watch on YouTube</a>
     </td>
   </tr>
 </table>
@@ -40,7 +34,6 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 |---------|------------|-------|
 | [Morphous](https://github.com/Ameyanagi/morphos) | Catalog of nature-inspired design systems, generated motif assets, and shadcn/tweakcn theme exports | [Live catalog](https://morphos.ameyanagi.com/) |
 | [WebXrayDB](https://github.com/Ameyanagi/webxraydb-rs) | Browser and desktop X-ray reference database with attenuation, scattering, optics, and sample-preparation calculators | [Web app](https://webxraydb-rs.ameyanagi.com/) · [Desktop releases](https://github.com/Ameyanagi/webxraydb-rs/releases/latest) |
-| [KYTLab](https://github.com/Ameyanagi/KYTLab) | Collaborative hazard prediction training with GPT-assisted coaching and generated training scenes | [Demo](https://youtu.be/kGLp1Vifssc) |
 | [TagRune](https://tagrune.rxx.jp/) | AI tagging workflow built around a Rust API, queue workers, object storage, and a TanStack Start UI | [Product](https://tagrune.rxx.jp/) |
 | [Cadence Note](https://cadence.rxx.jp/) | Personal-first task manager built with TanStack Start, Elysia, Drizzle, PostgreSQL, and worker queues | [Product](https://cadence.rxx.jp/) |
 
