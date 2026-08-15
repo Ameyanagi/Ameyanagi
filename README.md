@@ -26,6 +26,12 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
       <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="100%" controls></video>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="https://github.com/Ameyanagi/baselines"><img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="baselines" width="40" /></a><br>
+      <video src="https://github.com/user-attachments/assets/2b3c97ec-e395-4c75-aa7f-aebec5f9a3f3" width="50%" controls></video>
+    </td>
+  </tr>
 </table>
 
 </div>
@@ -94,7 +100,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Fortran-backed FEFF10 integration: [`feff10`](https://crates.io/crates/feff10), [`feff10-cli`](https://crates.io/crates/feff10-cli), [`feff10-sys`](https://crates.io/crates/feff10-sys), and [Python bindings](https://pypi.org/project/feff10-rs/) |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Elemental X-ray data: [`xraydb`](https://crates.io/crates/xraydb) and [`xraydb-data`](https://crates.io/crates/xraydb-data) |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Formula and composition parsing for [Rust](https://crates.io/crates/chemical-formula), [Python](https://pypi.org/project/chemical-formula-rs/), and [npm](https://www.npmjs.com/package/@ameyanagi/chemical-formula) |
-| <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | 1D and 2D baseline correction with pybaselines parity and optional GPU kernels; [published crate](https://crates.io/crates/baselines) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | 1D and 2D baseline correction with pybaselines parity and optional GPU kernels; [Rust](https://crates.io/crates/baselines), [Python](https://pypi.org/project/baselines-rs/), [npm](https://www.npmjs.com/package/baselines-rs), and [video](https://youtu.be/nAsXHbcthLA) |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Source workspace for Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | Unpublished NMR workspace: facade, core, IO, processing, analysis, simulation, prediction, and WebAssembly bindings |
 
@@ -143,7 +149,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 |---------|------|------------|
 | <img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> [refeff](https://github.com/Ameyanagi/refeff) | X-ray spectroscopy | From-scratch, safe-Rust FEFF10-compatible engine and CLI |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | X-ray spectroscopy | Rust, Python, CLI, and C-facing integration for the original FEFF10 implementation |
-| <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals, spectra, and 2D surfaces, with optional GPU kernels |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals and surfaces in [Rust](https://crates.io/crates/baselines), [Python](https://pypi.org/project/baselines-rs/), and [WebAssembly/npm](https://www.npmjs.com/package/baselines-rs) |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | NMR | Rust workspace for spectrum IO, processing, analysis, simulation, prediction, and WebAssembly |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Numerical methods | Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
 | [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | X-ray data | Pure-Rust port of XrayDB elemental reference data |
