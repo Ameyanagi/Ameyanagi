@@ -8,8 +8,9 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 
 | Project | Stack | What it is | Links |
 |---------|-------|------------|-------|
-| <img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="" width="20" /> [ruviz](https://github.com/Ameyanagi/ruviz) | Rust, Python, TypeScript | High-performance 2D and 3D plotting with matplotlib-style ergonomics and a `wgpu` renderer | [Demo](https://youtu.be/6MT_hu8xpjo) · [Rust](https://crates.io/crates/ruviz) · [Python](https://pypi.org/project/ruviz/) · [npm](https://www.npmjs.com/package/ruviz) |
-| <img src="https://raw.githubusercontent.com/Ameyanagi/yuru/main/docs/assets/yuru-icon.svg" alt="" width="20" /> [Yuru](https://github.com/Ameyanagi/yuru) | Rust | Fast CJK-aware fuzzy finder with Japanese romaji, Chinese pinyin, Korean phonetic search, and fzf-style shell integration | [Demo](https://youtu.be/_RyVr3VLULo) · [Releases](https://github.com/Ameyanagi/yuru/releases/latest) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="" width="20" /> [ruviz](https://github.com/Ameyanagi/ruviz) | Rust, Python, TypeScript | High-performance 2D and 3D plotting with 29 plot types, publication output, and interactive tooltips and series controls | [Demo](https://youtu.be/6MT_hu8xpjo) · [v0.11.0](https://github.com/Ameyanagi/ruviz/releases/tag/v0.11.0) · [Rust](https://crates.io/crates/ruviz) · [Python](https://pypi.org/project/ruviz/) · [npm](https://www.npmjs.com/package/ruviz) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/yuru/main/docs/assets/yuru-icon.svg" alt="" width="20" /> [Yuru](https://github.com/Ameyanagi/yuru) | Rust | Fast CJK-aware fuzzy finder with Japanese, Chinese, and Korean phonetic search plus Bash, Zsh, Fish, PowerShell, and Clink integration | [Demo](https://youtu.be/_RyVr3VLULo) · [v0.2.3](https://github.com/Ameyanagi/yuru/releases/tag/v0.2.3) · [crates.io](https://crates.io/crates/yuru) |
+| [EasyPPTX](https://github.com/Ameyanagi/easypptx) | Python | AI-friendly PowerPoint generation with grid and Deck builders, Markdown conversion, auto-pagination, themes, and table style presets | [Demo](https://github.com/user-attachments/assets/84bd2754-854c-41f9-a21c-9e096971a6d4) · [v0.11.0](https://github.com/Ameyanagi/easypptx/releases/tag/0.11.0) · [PyPI](https://pypi.org/project/EasyPPTX/) |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/aibo/main/assets-src/aibo-icon-1024.png" alt="" width="20" /> [aibo](https://github.com/Ameyanagi/aibo) | Rust | Hotkey-summoned, context-aware AI panel for macOS and Windows, with provider routing, dictation, file search, and agent runs | [Releases](https://github.com/Ameyanagi/aibo/releases/latest) |
 | [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Rust | Fast XAS/XAFS analysis for large datasets, with parallel processing, fitting, plotting, and a desktop application | [Repository](https://github.com/Ameyanagi/xraytsubaki) |
 
@@ -41,14 +42,16 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 | Project | What it is | Links |
 |---------|------------|-------|
 | <img src="https://raw.githubusercontent.com/Ameyanagi/morphos/main/src/logo.svg" alt="" width="20" /> [Morphous](https://github.com/Ameyanagi/morphos) | Catalog of nature-inspired design systems, generated motif assets, and shadcn/tweakcn theme exports | [Live catalog](https://morphos.ameyanagi.com/) |
-| <img src="https://raw.githubusercontent.com/Ameyanagi/webxraydb-rs/main/desktop-tauri/src-tauri/icons/icon.png" alt="" width="20" /> [WebXrayDB](https://github.com/Ameyanagi/webxraydb-rs) | Browser and desktop X-ray reference database with attenuation, scattering, optics, and sample-preparation calculators | [Web app](https://webxraydb-rs.ameyanagi.com/) · [Desktop releases](https://github.com/Ameyanagi/webxraydb-rs/releases/latest) |
-| [TagRune](https://tagrune.rxx.jp/) | AI tagging workflow built around a Rust API, queue workers, object storage, and a TanStack Start UI | [Product](https://tagrune.rxx.jp/) |
-| [Cadence Note](https://cadence.rxx.jp/) | Personal-first task manager built with TanStack Start, Elysia, Drizzle, PostgreSQL, and worker queues | [Product](https://cadence.rxx.jp/) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/webxraydb-rs/main/assets/icon-512.png" alt="" width="20" /> [WebXrayDB](https://github.com/Ameyanagi/webxraydb-rs) | Browser and desktop X-ray reference database with interactive plots, shareable XAS-planning links, attenuation, scattering, optics, and sample-preparation calculators | [Web app](https://webxraydb-rs.ameyanagi.com/) · [Demo](https://youtu.be/tt1Y-5KL51Q) · [Desktop releases](https://github.com/Ameyanagi/webxraydb-rs/releases/latest) |
+| <img src="https://tagrune.rxx.jp/logo.svg" alt="" width="20" /> [TagRune](https://tagrune.rxx.jp/) | AI tagging workflow built around a Rust API, queue workers, object storage, and a TanStack Start UI | [Product](https://tagrune.rxx.jp/) |
+| <img src="https://cadence.rxx.jp/favicon.svg" alt="" width="20" /> [Cadence Note](https://cadence.rxx.jp/) | Personal-first task manager built with TanStack Start, Elysia, Drizzle, PostgreSQL, and worker queues | [Product](https://cadence.rxx.jp/) |
 
 ## Packages and project families
 
 <details>
 <summary><img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> <strong>refeff</strong> — pure-Rust FEFF10-compatible spectroscopy stack</summary>
+
+Current release: [`refeff` 0.2.2](https://github.com/Ameyanagi/refeff/releases/tag/v0.2.2), with the component crates at 0.1.3.
 
 | Published crate | Role |
 |-----------------|------|
@@ -64,7 +67,7 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 <details>
 <summary><img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="" width="20" /> <strong>ruviz</strong> — plotting across Rust, Python, browsers, and native GUIs</summary>
 
-- Core distributions: [crates.io](https://crates.io/crates/ruviz), [PyPI](https://pypi.org/project/ruviz/), and [npm](https://www.npmjs.com/package/ruviz).
+- Core distributions, all at 0.11.0: [crates.io](https://crates.io/crates/ruviz), [PyPI](https://pypi.org/project/ruviz/), and [npm](https://www.npmjs.com/package/ruviz).
 - Browser runtime: [`ruviz-web`](https://crates.io/crates/ruviz-web).
 - Native adapters: [`ruviz-gpui`](https://crates.io/crates/ruviz-gpui), [`ruviz-egui`](https://crates.io/crates/ruviz-egui), [`ruviz-iced`](https://crates.io/crates/ruviz-iced), and [`ruviz-slint`](https://crates.io/crates/ruviz-slint).
 
@@ -98,7 +101,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 |---------|-------------------|
 | [xraytsubaki](https://github.com/Ameyanagi/xraytsubaki) | Source workspace for XAS analysis, desktop UI, and in-development Python bindings; optionally uses `refeff`, `feff10`, and `ruviz` |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Fortran-backed FEFF10 integration: [`feff10`](https://crates.io/crates/feff10), [`feff10-cli`](https://crates.io/crates/feff10-cli), [`feff10-sys`](https://crates.io/crates/feff10-sys), and [Python bindings](https://pypi.org/project/feff10-rs/) |
-| [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Elemental X-ray data: [`xraydb`](https://crates.io/crates/xraydb) and [`xraydb-data`](https://crates.io/crates/xraydb-data) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/xraydb-rs/main/assets/icon-512.png" alt="" width="20" /> [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | Elemental X-ray data v0.4.1 for [Rust](https://crates.io/crates/xraydb) with [`xraydb-data`](https://crates.io/crates/xraydb-data), plus the self-contained [`xraydb-wasm`](https://www.npmjs.com/package/xraydb-wasm) npm package |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Formula and composition parsing for [Rust](https://crates.io/crates/chemical-formula), [Python](https://pypi.org/project/chemical-formula-rs/), and [npm](https://www.npmjs.com/package/@ameyanagi/chemical-formula) |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | 1D and 2D baseline correction with pybaselines parity and optional GPU kernels; [Rust](https://crates.io/crates/baselines), [Python](https://pypi.org/project/baselines-rs/), [npm](https://www.npmjs.com/package/baselines-rs), and [video](https://youtu.be/nAsXHbcthLA) |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Source workspace for Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
@@ -109,13 +112,13 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 </details>
 
 <details>
-<summary><strong>Safety, risk assessment, and regulatory data</strong></summary>
+<summary><img src="https://raw.githubusercontent.com/Ameyanagi/ra-library/main/assets/logo.png" alt="" width="20" /> <strong>Safety, risk assessment, and regulatory data</strong></summary>
 
 | Project | Published artifact | Focus |
 |---------|--------------------|-------|
-| [ra-library](https://github.com/Ameyanagi/ra-library) | [PyPI](https://pypi.org/project/ra-library/) | Explainable chemical risk calculations and recommendations |
-| [ra-law-db](https://github.com/Ameyanagi/ra-law-db) | [PyPI](https://pypi.org/project/ra-law-db/) · bundled SQLite | Japanese chemical-law screening and public regulatory data |
-| [ra-bio](https://github.com/Ameyanagi/ra-bio) | [PyPI](https://pypi.org/project/ra-bio/) · bundled SQLite | Microorganism, biosafety, and regulatory references |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ra-library/main/assets/logo.png" alt="" width="20" /> [ra-library](https://github.com/Ameyanagi/ra-library) | [PyPI](https://pypi.org/project/ra-library/) | Explainable chemical risk calculations and recommendations |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ra-law-db/main/assets/logo.png" alt="" width="20" /> [ra-law-db](https://github.com/Ameyanagi/ra-law-db) | [PyPI](https://pypi.org/project/ra-law-db/) · bundled SQLite | Japanese chemical-law screening and public regulatory data |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ra-bio/main/assets/logo.png" alt="" width="20" /> [ra-bio](https://github.com/Ameyanagi/ra-bio) | [PyPI](https://pypi.org/project/ra-bio/) · bundled SQLite | Microorganism, biosafety, and regulatory references |
 | [risk_assessment_list](https://github.com/Ameyanagi/risk_assessment_list) | Source and SQLite data | Experimental obligation-list, GHS, and mixture screening |
 
 </details>
@@ -125,6 +128,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 
 | Project | Published artifact | Focus |
 |---------|--------------------|-------|
+| [EasyPPTX](https://github.com/Ameyanagi/easypptx) | [PyPI](https://pypi.org/project/EasyPPTX/) · [v0.11.0](https://github.com/Ameyanagi/easypptx/releases/tag/0.11.0) · [video](https://github.com/user-attachments/assets/84bd2754-854c-41f9-a21c-9e096971a6d4) | AI-friendly PowerPoint creation with grid and Deck builders, Markdown conversion, and designed table presets |
 | [ondotori-ble](https://github.com/Ameyanagi/ondotori-ble) | [PyPI](https://pypi.org/project/ondotori-ble/) · [documentation](https://ameyanagi.github.io/ondotori-ble/) | Typed BLE advertisement APIs for selected T&amp;D Ondotori sensors |
 
 </details>
@@ -152,16 +156,16 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 | <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals and surfaces in [Rust](https://crates.io/crates/baselines), [Python](https://pypi.org/project/baselines-rs/), and [WebAssembly/npm](https://www.npmjs.com/package/baselines-rs) |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | NMR | Rust workspace for spectrum IO, processing, analysis, simulation, prediction, and WebAssembly |
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Numerical methods | Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
-| [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | X-ray data | Pure-Rust port of XrayDB elemental reference data |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/xraydb-rs/main/assets/icon-512.png" alt="" width="20" /> [xraydb-rs](https://github.com/Ameyanagi/xraydb-rs) | X-ray data | XrayDB 0.4.1 elemental reference data for [Rust](https://crates.io/crates/xraydb) and [WebAssembly/npm](https://www.npmjs.com/package/xraydb-wasm) |
 | [chemical-formula-rs](https://github.com/Ameyanagi/chemical-formula-rs) | Chemistry | Formula and composition parsing for Rust, Python, and TypeScript |
 | [ondotori-ble](https://github.com/Ameyanagi/ondotori-ble) | Instrumentation | Typed Python APIs for selected T&amp;D Ondotori BLE advertisements |
-| [ra-library](https://github.com/Ameyanagi/ra-library) | Risk assessment | Explainable chemical risk calculations and recommendations |
-| [ra-law-db](https://github.com/Ameyanagi/ra-law-db) | Regulatory data | Japanese chemical-law screening package and SQLite data |
-| [ra-bio](https://github.com/Ameyanagi/ra-bio) | Biological safety | Microorganism risk and regulatory reference package |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ra-library/main/assets/logo.png" alt="" width="20" /> [ra-library](https://github.com/Ameyanagi/ra-library) | Risk assessment | Explainable chemical risk calculations and recommendations |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ra-law-db/main/assets/logo.png" alt="" width="20" /> [ra-law-db](https://github.com/Ameyanagi/ra-law-db) | Regulatory data | Japanese chemical-law screening package and SQLite data |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ra-bio/main/assets/logo.png" alt="" width="20" /> [ra-bio](https://github.com/Ameyanagi/ra-bio) | Biological safety | Microorganism risk and regulatory reference package |
 | [risk_assessment_list](https://github.com/Ameyanagi/risk_assessment_list) | Regulatory data | Japanese obligation-list, GHS, and mixture screening tools |
 | [LLMRateLimiter](https://github.com/Ameyanagi/LLMRateLimiter) | AI infrastructure | Distributed TPM/RPM rate limiter with FIFO queues and burst prevention |
 | [ClaudeSlide](https://github.com/Ameyanagi/ClaudeSlide) | Documents | CLI and library for editing PowerPoint files through OOXML |
-| [easypptx](https://github.com/Ameyanagi/easypptx) | Documents | Python library for creating and manipulating PowerPoint presentations |
+| [EasyPPTX](https://github.com/Ameyanagi/easypptx) | Documents | [PyPI](https://pypi.org/project/EasyPPTX/) package for AI-friendly PowerPoint generation with grid layouts, Markdown, auto-pagination, themes, and table style presets |
 | [agenting](https://github.com/Ameyanagi/agenting) | Developer tools | CLI for generating managed `AGENTS.md` and `CLAUDE.md` instructions |
 | [cobalt-stack](https://github.com/Ameyanagi/cobalt-stack) | Full-stack development | Axum and Next.js application template |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/mucaljs/main/public/favicon.png" alt="" width="20" /> [mucaljs](https://github.com/Ameyanagi/mucaljs) | X-ray data | JavaScript implementation of MUCAL cross-section estimation |
