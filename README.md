@@ -21,10 +21,22 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 <table width="100%">
   <tr>
     <td width="50%" align="center">
+      <a href="https://github.com/Ameyanagi/yuru"><img src="https://raw.githubusercontent.com/Ameyanagi/yuru/main/docs/assets/yuru-icon.svg" alt="Yuru" width="32" /></a><br>
       <video src="https://github.com/user-attachments/assets/37f9643f-0ed1-4cca-8a15-c4a8bd78cf34" width="100%" controls></video>
     </td>
     <td width="50%" align="center">
+      <a href="https://github.com/Ameyanagi/ruviz"><img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="ruviz" width="32" /></a><br>
       <video src="https://github.com/user-attachments/assets/bce842b5-50d8-43e4-893d-074bf6738975" width="100%" controls></video>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <strong><a href="https://github.com/Ameyanagi/easypptx">EasyPPTX</a></strong><br>
+      <video src="https://github.com/user-attachments/assets/84bd2754-854c-41f9-a21c-9e096971a6d4" width="100%" controls></video>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Ameyanagi/webxraydb-rs"><img src="https://raw.githubusercontent.com/Ameyanagi/webxraydb-rs/main/assets/icon-512.png" alt="WebXrayDB" width="32" /></a><br>
+      <video src="https://github.com/user-attachments/assets/6b8caac1-5e22-44de-bc75-cb99ba2d8a89" width="100%" controls></video>
     </td>
   </tr>
   <tr>
