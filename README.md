@@ -128,6 +128,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 
 | Project | Published artifact | Focus |
 |---------|--------------------|-------|
+| **[PHOENIX](https://ameyanagi.github.io/phoenix-chem/)** | [PyPI](https://pypi.org/project/phoenix-chem/) · [documentation](https://ameyanagi.github.io/phoenix-chem/) | Reactive chemical hazard evaluation and CHETAH-style instability screening; for screening only, with experimental validation required |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/ra-library/main/assets/logo.png" alt="" width="20" /> [ra-library](https://github.com/Ameyanagi/ra-library) | [PyPI](https://pypi.org/project/ra-library/) | Explainable chemical risk calculations and recommendations |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/ra-law-db/main/assets/logo.png" alt="" width="20" /> [ra-law-db](https://github.com/Ameyanagi/ra-law-db) | [PyPI](https://pypi.org/project/ra-law-db/) · bundled SQLite | Japanese chemical-law screening and public regulatory data |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/ra-bio/main/assets/logo.png" alt="" width="20" /> [ra-bio](https://github.com/Ameyanagi/ra-bio) | [PyPI](https://pypi.org/project/ra-bio/) · bundled SQLite | Microorganism, biosafety, and regulatory references |
