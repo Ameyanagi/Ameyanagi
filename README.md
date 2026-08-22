@@ -61,8 +61,7 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 
 ## Packages and project families
 
-<details>
-<summary><strong>Experimental Mojo libraries</strong></summary>
+### Experimental Mojo libraries
 
 | Project | Focus |
 |---------|-------|
@@ -79,8 +78,6 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 | [nami](https://github.com/Ameyanagi/nami) | Scientific signal processing |
 | [moji](https://github.com/Ameyanagi/moji) | Unicode text, search, and layout primitives |
 | [mojo-channel](https://github.com/Ameyanagi/mojo-channel) | Interim package channel for the experimental Mojo ecosystem |
-
-</details>
 
 <details>
 <summary><img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> <strong>refeff</strong> — pure-Rust FEFF10-compatible spectroscopy stack</summary>
