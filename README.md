@@ -62,6 +62,27 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 ## Packages and project families
 
 <details>
+<summary><strong>Experimental Mojo libraries</strong></summary>
+
+| Project | Focus |
+|---------|-------|
+| [yuragi](https://github.com/Ameyanagi/yuragi) | CJK-aware fuzzy finder |
+| [yomi](https://github.com/Ameyanagi/yomi) | CJK phonetic representations and readings |
+| [sen](https://github.com/Ameyanagi/sen) | Scientific plotting |
+| [nerai](https://github.com/Ameyanagi/nerai) | Optimization and nonlinear least squares |
+| [shuhafft](https://github.com/Ameyanagi/shuhafft) | Production-quality fast Fourier transforms |
+| [mojotui](https://github.com/Ameyanagi/mojotui) | Composable terminal user interfaces |
+| [akari](https://github.com/Ameyanagi/akari) | Color science, palettes, and scientific colormaps |
+| [nagare](https://github.com/Ameyanagi/nagare) | Interpolation and spline algorithms |
+| [kagerou](https://github.com/Ameyanagi/kagerou) | Low-level native 2D rendering |
+| [hibana](https://github.com/Ameyanagi/hibana) | High-performance fuzzy matching |
+| [nami](https://github.com/Ameyanagi/nami) | Scientific signal processing |
+| [moji](https://github.com/Ameyanagi/moji) | Unicode text, search, and layout primitives |
+| [mojo-channel](https://github.com/Ameyanagi/mojo-channel) | Interim package channel for the experimental Mojo ecosystem |
+
+</details>
+
+<details>
 <summary><img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> <strong>refeff</strong> — pure-Rust FEFF10-compatible spectroscopy stack</summary>
 
 Current release: [`refeff` 0.2.2](https://github.com/Ameyanagi/refeff/releases/tag/v0.2.2), with the component crates at 0.1.3.
