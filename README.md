@@ -14,6 +14,7 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 | <img src="https://raw.githubusercontent.com/Ameyanagi/phoenix-chem/main/assets/logo.png" alt="" width="20" /> [PHOENIX](https://github.com/Ameyanagi/phoenix-chem) | Python | Reactive chemical hazard evaluation with thermodynamic estimation, CHETAH-style screening, decomposition analysis, and batch SMILES workflows | [PyPI](https://pypi.org/project/phoenix-chem/) · [Docs](https://ameyanagi.github.io/phoenix-chem/) |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/aibo/main/assets-src/aibo-icon-1024.png" alt="" width="20" /> [aibo](https://github.com/Ameyanagi/aibo) | Rust | Hotkey-summoned, context-aware AI panel for macOS and Windows, with provider routing, dictation, file search, and agent runs | [Releases](https://github.com/Ameyanagi/aibo/releases/latest) |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/rexafs/main/assets/brand/rexafs-icon.png" alt="" width="20" /> [rexafs](https://github.com/Ameyanagi/rexafs) | Rust, Python, TypeScript | XAS/EXAFS analysis with normalization, background removal, Fourier transforms, path fitting, and a desktop application | [Website](https://rexafs.com/) · [Docs](https://rexafs.com/docs/getting-started/) · [Desktop releases](https://github.com/Ameyanagi/rexafs/releases/latest) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> [refeff](https://github.com/Ameyanagi/refeff) | Rust, WebAssembly | Safe-Rust port of FEFF10 for EXAFS, XANES, and related X-ray spectra, with a CLI and embeddable computation engine | [v0.3.0](https://github.com/Ameyanagi/refeff/releases/tag/v0.3.0) · [crates.io](https://crates.io/crates/refeff) · [Docs](https://docs.rs/refeff) |
 
 ## Project demos
 
@@ -80,9 +81,9 @@ My work spans scientific computing and X-ray spectroscopy, multilingual search, 
 | [mojo-channel](https://github.com/Ameyanagi/mojo-channel) | Interim package channel for the experimental Mojo ecosystem |
 
 <details>
-<summary><img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> <strong>refeff</strong> — pure-Rust FEFF10-compatible spectroscopy stack</summary>
+<summary><img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> <strong>refeff</strong> — pure-Rust port of FEFF10 for X-ray spectroscopy</summary>
 
-Current release: [`refeff` 0.2.2](https://github.com/Ameyanagi/refeff/releases/tag/v0.2.2), with the component crates at 0.1.3.
+Current release: [`refeff` 0.3.0](https://github.com/Ameyanagi/refeff/releases/tag/v0.3.0), with the component crates at 0.2.0.
 
 | Published crate | Role |
 |-----------------|------|
@@ -138,7 +139,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 | [lmopt](https://github.com/Ameyanagi/lmopt) | Source workspace for Levenberg-Marquardt nonlinear least-squares optimization using `faer` |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | Unpublished NMR workspace: facade, core, IO, processing, analysis, simulation, prediction, and WebAssembly bindings |
 
-`feff10-rs` wraps the original FEFF10 Fortran implementation; `refeff` is a separate from-scratch Rust implementation. RSpin and `lmopt` are not currently published on crates.io.
+`feff10-rs` wraps the original FEFF10 Fortran implementation; `refeff` translates and adapts that implementation into safe Rust. RSpin and `lmopt` are not currently published on crates.io.
 
 </details>
 
@@ -183,7 +184,7 @@ Aibo is distributed as [macOS and Windows releases](https://github.com/Ameyanagi
 
 | Project | Area | What it is |
 |---------|------|------------|
-| <img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> [refeff](https://github.com/Ameyanagi/refeff) | X-ray spectroscopy | From-scratch, safe-Rust FEFF10-compatible engine and CLI |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> [refeff](https://github.com/Ameyanagi/refeff) | X-ray spectroscopy | Safe-Rust port of FEFF10 with an embeddable engine, CLI, and WebAssembly support |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | X-ray spectroscopy | Rust, Python, CLI, and C-facing integration for the original FEFF10 implementation |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="" width="20" /> [baselines](https://github.com/Ameyanagi/baselines) | Scientific computing | Baseline correction for signals and surfaces in [Rust](https://crates.io/crates/baselines), [Python](https://pypi.org/project/baselines-rs/), and [WebAssembly/npm](https://www.npmjs.com/package/baselines-rs) |
 | [RSpin](https://github.com/Ameyanagi/RSpin) | NMR | Rust workspace for spectrum IO, processing, analysis, simulation, prediction, and WebAssembly |
