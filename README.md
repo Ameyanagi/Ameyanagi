@@ -11,6 +11,7 @@ I build scientific software, developer tools, and AI-assisted products in Rust, 
 | Project | Stack | What it is | Links |
 | --- | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/rexafs/main/assets/brand/rexafs-icon.png" alt="" width="20" /> [rexafs](https://github.com/Ameyanagi/rexafs) | Rust, Python, TypeScript | XAS/EXAFS analysis with normalization, background removal, Fourier transforms, path fitting, and a desktop application | [Website](https://rexafs.com/) · [Docs](https://rexafs.com/docs/getting-started/) · [Desktop releases](https://github.com/Ameyanagi/rexafs/releases/latest) |
+| <img src="https://raw.githubusercontent.com/Ameyanagi/ReShiki/main/assets/branding/exports/light/icon-32.png" alt="" width="20" /> [ReShiki](https://github.com/Ameyanagi/ReShiki) | Rust, Iced | Chemical structure drawing, reaction schemes, and SVG/PDF/PNG figure exports, with offline chemistry tools and an optional AI assistant | [Website](https://reshiki.com/) · [Visual manual](https://reshiki.com/guide/first-molecule/) · [Desktop releases](https://github.com/Ameyanagi/ReShiki/releases/latest) · [Promo](https://reshiki.com/#promo-video) |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/refeff/main/assets/refeff-icon.png" alt="" width="20" /> [refeff](https://github.com/Ameyanagi/refeff) | Rust, WebAssembly | Safe-Rust port of FEFF10 for EXAFS, XANES, and related X-ray spectra, with a CLI and embeddable computation engine | [v0.3.0](https://github.com/Ameyanagi/refeff/releases/tag/v0.3.0) · [crates.io](https://crates.io/crates/refeff) · [Docs](https://docs.rs/refeff) |
 | [feff10-rs](https://github.com/Ameyanagi/feff10-rs) | Rust, Python, Fortran | FEFF10 integration with Rust and Python APIs, a CLI, and a C interface | [crates.io](https://crates.io/crates/feff10) · [PyPI](https://pypi.org/project/feff10-rs/) · [Releases](https://github.com/Ameyanagi/feff10-rs/releases/latest) |
 | <img src="https://raw.githubusercontent.com/Ameyanagi/ruviz/main/docs/assets/logo/ruviz-logo-32.png" alt="" width="20" /> [ruviz](https://github.com/Ameyanagi/ruviz) | Rust, Python, TypeScript | 2D and 3D plotting with 29 core plot types, publication figures, notebook widgets, and interactive browser controls | [Demo](https://youtu.be/6MT_hu8xpjo) · [v0.14.1](https://github.com/Ameyanagi/ruviz/releases/tag/v0.14.1) · [Rust](https://crates.io/crates/ruviz) · [Python](https://pypi.org/project/ruviz/) · [npm](https://www.npmjs.com/package/ruviz) |
@@ -168,9 +169,14 @@ Versions in this table apply to the primary crate. Companion crates have their o
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td width="50%" align="center">
       <a href="https://github.com/Ameyanagi/baselines"><img src="https://raw.githubusercontent.com/Ameyanagi/baselines/main/docs/assets/branding/baselines-icon-midnight-hex-v2.png" alt="baselines" width="40" /></a><br>
-      <video src="https://github.com/user-attachments/assets/2b3c97ec-e395-4c75-aa7f-aebec5f9a3f3" width="50%" controls></video>
+      <video src="https://github.com/user-attachments/assets/2b3c97ec-e395-4c75-aa7f-aebec5f9a3f3" width="100%" controls></video>
+    </td>
+    <td width="50%" align="center">
+      <strong><a href="https://github.com/Ameyanagi/ReShiki">ReShiki</a></strong><br>
+      <a href="https://reshiki.com/#promo-video"><img src="https://raw.githubusercontent.com/Ameyanagi/ReShiki/main/website/public/media/reshiki-promo-poster.png" alt="Watch the ReShiki promo: chemical drawing and reaction schemes" width="100%" /></a><br>
+      <a href="https://reshiki.com/#promo-video">Watch the 83-second promo</a> · <a href="https://raw.githubusercontent.com/Ameyanagi/ReShiki/main/website/public/media/reshiki-promo.mp4">Download MP4</a>
     </td>
   </tr>
 </table>
